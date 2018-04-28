@@ -21,4 +21,4 @@
 * REMOVE_NODE，老 component 类型，在新集合里也有，但对应的 element 不同则不能直接复用和更新，需要执行删除操作，或者老 component 不在新集合里的，也需要执行删除操作。
 
 这是整个diff算法的流程图比较：<br/>
-![Alt text](https://github.com/ddduanlian/react-redux-study/raw/master/diff.png)
+![Alt text](https://github.com/ddduanlian/react-redux-study/raw/master/react-diff/diff.png)
