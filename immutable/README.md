@@ -21,7 +21,7 @@ Immutable: 不可变对象，一旦创建不可更改。immutable 可以基于�
 
 
 # 常用api
-```
+```javascript
 //Map()  原生object转Map对象 (只会转换第一层，注意和fromJS区别)
 immutable.Map({name:'danny', age:18})
 
